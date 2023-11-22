@@ -10,7 +10,7 @@ import pl.bartoszmech.emailsender.controller.requestBody.EmailRecipient;
 import pl.bartoszmech.emailsender.service.EmailSenderService;
 
 @RestController
-@CrossOrigin(originPatterns = ".*blog-newsletter-backend.onrender.*")
+@CrossOrigin(originPatterns = ".*blog.bartoszmech.*")
 public class EmailController {
 
     private final EmailSenderService emailSenderService;
